@@ -1,0 +1,17 @@
+{
+	"name": "CleanComputerGlassesSQL",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LenskartSqlServer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "prep",
+			"table": "ComputerGlasses"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
